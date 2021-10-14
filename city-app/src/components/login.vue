@@ -50,7 +50,7 @@ export default {
         body: JSON.stringify(credientials)
       })
       if(req.status === 200) {
-        
+        console.log('s')
       }
       let res = await req.json()
       console.log(res, 'ss')
